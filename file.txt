@@ -1,0 +1,8 @@
+@bot.message_handler(commands=["start"])
+def send_welcome(message):
+    bot.reply_to(message, (
+        "🔥 Welcome, fighter.\n\n"
+        "This is more than just a bot. It's a place for courage, growth, and real transformation.\n\n"
+        "Inside, you'll find motivational guides, tools to face fear, and daily fire to keep going.\n\n"
+        "Ready for your first digital guide? Just type: paid\n\n"
+        "Let’s get it. Your journey starts now."
